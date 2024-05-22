@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width:640px) {
+
+    nav{
+        background-color: rgb(224, 223, 223);
+        width: 100%;
+        
+    }
+    nav .p{
+      margin: 0px  0%;
+    }
+    nav .p .b{
+        font-size: 1.5rem;
+    }
+    nav .p:hover{
+        background-color: lightgrey;
+        overflow: hidden;
+    
+    }
+    nav .mainul{
+        display:none
+    }
+    header{
+        width: 100%;
+        /* background-size: 100% 100%; */
+        object-fit: fill;
+    }
+    .houses{
+        flex-wrap: wrap;
+        margin: auto;
+        column-gap: 10px;
+    }
+    nav .iconn{
+        display: block;
+    }
+    .houses .homes{
+        flex: 40%;
+    }
+    .About{
+        padding-bottom: 330px;
+    }
+    .About .para{
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .names{
+        flex-wrap: wrap;
+        margin:3rem auto;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+    .names .team{
+        flex: 40%;
+    }
+    .Contact{
+        margin-top: 10px;
+    }
+    .credit .creditp{
+        font-size: 1.5rem;
+    }
+    .credit .span1{
+        font-size: 1.8rem ;
+    }
+}
